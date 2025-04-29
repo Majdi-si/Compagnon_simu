@@ -1,0 +1,1638 @@
+{
+    "NewDepartureFlights": [
+        {
+            "CallSign": "RYR593",
+            "AircraftType": "B738",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "A01",
+            "Dlink": true,
+            "Taxi": "classic",
+            "StartTime": "08:35:00",
+            "Tobt": "08:42:20",
+            "Regulations": {
+                "LineUp": {
+                    "Hold": "T10",
+                    "Time": "08:50:33"
+                }
+            },
+            "Ttot": "08:52:33"
+        },
+        {
+            "CallSign": "DAL865",
+            "AircraftType": "A319",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "Q10",
+            "Dlink": true,
+            "Taxi": "taxibot",
+            "StartTime": "08:35:00",
+            "Tobt": "08:51:40",
+            "Regulations": {
+                "Decoupling": {
+                    "Hold": "SE1",
+                    "Duration": 130,
+                    "Time": "09:01:51"
+                },
+                "LineUp": {
+                    "Hold": "T10",
+                    "Time": "09:05:20"
+                },
+                "Orders": {
+                    "08:55:25": "AircraftSpeedDown",
+                    "08:55:30": "AircraftSpeedDown",
+                    "08:56:30": "AircraftSpeedUp"
+                }
+            },
+            "Ttot": "09:07:20"
+        },
+        {
+            "CallSign": "KLM509",
+            "AircraftType": "A320",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "C07",
+            "Dlink": true,
+            "Taxi": "taxibot",
+            "StartTime": "08:35:00",
+            "Tobt": "08:53:20",
+            "Regulations": {
+                "Decoupling": {
+                    "Hold": "SE2",
+                    "Duration": 130,
+                    "Time": "08:59:42"
+                },
+                "LineUp": {
+                    "Hold": "T10",
+                    "Time": "09:02:54"
+                }
+            },
+            "Ttot": "09:04:54"
+        },
+        {
+            "CallSign": "DAL423",
+            "AircraftType": "A319",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "H70",
+            "Dlink": true,
+            "Taxi": "taxibot",
+            "StartTime": "08:35:00",
+            "Tobt": "08:52:20",
+            "Regulations": {
+                "Decoupling": {
+                    "Hold": "SE1",
+                    "Duration": 100,
+                    "Time": "08:59:36"
+                },
+                "LineUp": {
+                    "Hold": "T11",
+                    "Time": "09:02:49"
+                }
+            },
+            "Ttot": "09:04:49"
+        },
+        {
+            "CallSign": "UAE914",
+            "AircraftType": "A332",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "A03",
+            "Dlink": true,
+            "Taxi": "classic",
+            "StartTime": "08:35:00",
+            "Tobt": "08:43:25",
+            "Regulations": {
+                "LineUp": {
+                    "Delay": 45,
+                    "Time": "08:51:59"
+                }
+            },
+            "Ttot": "08:53:59"
+        },
+        {
+            "CallSign": "SIA859",
+            "AircraftType": "A388",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "A14",
+            "Dlink": true,
+            "Taxi": "classic",
+            "StartTime": "08:35:00",
+            "Tobt": "08:46:09",
+            "Regulations": {
+                "LineUp": {
+                    "Hold": "T12",
+                    "Time": "08:53:56"
+                }
+            },
+            "Ttot": "08:55:56"
+        },
+        {
+            "CallSign": "VLG958",
+            "AircraftType": "A320",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "CrossingInner": "",
+            "Parking": "A02",
+            "Dlink": true,
+            "Taxi": "taxibot",
+            "StartTime": "08:35:00",
+            "Tobt": "08:52:50",
+            "Regulations": {
+                "Decoupling": {
+                    "Hold": "SE3",
+                    "Duration": 90,
+                    "Time": "09:01:22"
+                },
+                "LineUp": {
+                    "Hold": "T11",
+                    "Time": "09:03:52"
+                }
+            },
+            "Ttot": "09:05:52"
+        },
+        {
+            "CallSign": "KLM538",
+            "AircraftType": "B772",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "A09",
+            "Dlink": true,
+            "Taxi": "classic",
+            "StartTime": "08:35:00",
+            "Tobt": "08:51:10",
+            "Regulations": {
+                "LineUp": {
+                    "Hold": "T11",
+                    "Delay": 160,
+                    "Time": "09:01:15"
+                }
+            },
+            "Ttot": "09:03:15"
+        },
+        {
+            "CallSign": "RYR309",
+            "AircraftType": "B738",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "G33",
+            "Dlink": true,
+            "Taxi": "set",
+            "StartTime": "08:35:00",
+            "Tobt": "08:51:30",
+            "Regulations": {
+                "LineUp": {
+                    "Delay": 30,
+                    "Hold": "T10",
+                    "Time": "09:00:15"
+                },
+                "Orders": {
+                    "08:54:55": "AircraftSpeedDown",
+                    "08:55:10": "AircraftSpeedUp"
+                }
+            },
+            "Ttot": "09:02:15"
+        },
+        {
+            "CallSign": "RYR736",
+            "AircraftType": "B738",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "F32",
+            "Dlink": true,
+            "Taxi": "taxibot",
+            "StartTime": "08:35:00",
+            "Tobt": "08:53:50",
+            "Regulations": {
+                "Decoupling": {
+                    "Hold": "SE4",
+                    "Duration": 90,
+                    "Time": "09:01:09"
+                },
+                "LineUp": {
+                    "Delay": 30,
+                    "Hold": "T12",
+                    "Time": "09:04:08"
+                }
+            },
+            "Ttot": "09:06:08"
+        },
+        {
+            "CallSign": "EZY125",
+            "AircraftType": "A321",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "F68",
+            "Dlink": true,
+            "Taxi": "taxibot",
+            "StartTime": "08:35:00",
+            "Tobt": "09:04:50",
+            "Regulations": {
+                "Decoupling": {
+                    "Hold": "SE1",
+                    "Duration": 90,
+                    "Time": "09:11:00"
+                },
+                "LineUp": {
+                    "Hold": "T11",
+                    "Time": "09:14:01"
+                }
+            },
+            "Ttot": "09:16:01"
+        },
+        {
+            "CallSign": "FIN156",
+            "AircraftType": "A319",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "Q19",
+            "Dlink": true,
+            "Taxi": "taxibot",
+            "StartTime": "08:35:00",
+            "Tobt": "09:08:10",
+            "Regulations": {
+                "Decoupling": {
+                    "Hold": "SE1",
+                    "Duration": 90,
+                    "Time": "09:18:06"
+                },
+                "LineUp": {
+                    "Hold": "T11",
+                    "Time": "09:21:09"
+                }
+            },
+            "Ttot": "09:23:09"
+        },
+        {
+            "CallSign": "VLG953",
+            "AircraftType": "A320",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "K01",
+            "Dlink": true,
+            "Taxi": "etaxi",
+            "StartTime": "08:35:00",
+            "Tobt": "08:51:30",
+            "Regulations": {
+                "Orders": {
+                    "08:54:50": "AircraftSpeedDown",
+                    "08:55:30": "AircraftSpeedUp"
+                },
+                "LineUp": {
+                    "Hold": "T11",
+                    "Time": "08:57:49"
+                }
+            },
+            "Ttot": "08:59:49"
+        },
+        {
+            "CallSign": "UAE971",
+            "AircraftType": "A332",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "G21",
+            "Dlink": true,
+            "Taxi": "classic",
+            "StartTime": "08:35:00",
+            "Tobt": "08:52:20",
+            "Regulations": {
+                "LineUp": {
+                    "Delay": 100,
+                    "Time": "09:02:39"
+                }
+            },
+            "Ttot": "09:04:39"
+        },
+        {
+            "CallSign": "KLM686",
+            "AircraftType": "B772",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "L27",
+            "Dlink": true,
+            "Taxi": "classic",
+            "StartTime": "08:35:00",
+            "Tobt": "08:52:41",
+            "Regulations": {
+                "LineUp": {
+                    "Delay": 60,
+                    "Time": "08:58:53"
+                }
+            },
+            "Ttot": "09:00:53"
+        },
+        {
+            "CallSign": "AZA620",
+            "AircraftType": "A318",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "F66",
+            "Dlink": true,
+            "Taxi": "taxibot",
+            "StartTime": "08:35:00",
+            "Tobt": "09:02:22",
+            "Regulations": {
+                "Decoupling": {
+                    "Hold": "SE1",
+                    "Duration": 90,
+                    "Time": "09:08:44"
+                },
+                "LineUp": {
+                    "Hold": "T11",
+                    "Time": "09:11:47"
+                }
+            },
+            "Ttot": "09:13:47"
+        },
+        {
+            "CallSign": "BAW707",
+            "AircraftType": "A320",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "C06",
+            "Dlink": true,
+            "Taxi": "taxibot",
+            "StartTime": "08:35:00",
+            "Tobt": "09:01:02",
+            "Regulations": {
+                "Decoupling": {
+                    "Hold": "SE1",
+                    "Duration": 90,
+                    "Time": "09:07:21"
+                },
+                "LineUp": {
+                    "Hold": "T11",
+                    "Time": "09:10:22"
+                }
+            },
+            "Ttot": "09:12:22"
+        },
+        {
+            "CallSign": "KLM570",
+            "AircraftType": "E190",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "A12",
+            "Dlink": true,
+            "Taxi": "set",
+            "StartTime": "08:35:00",
+            "Tobt": "08:57:42",
+            "Ttot": "09:07:21"
+        },
+        {
+            "CallSign": "KLM138",
+            "AircraftType": "B77W",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "K26",
+            "Dlink": true,
+            "Taxi": "classic",
+            "StartTime": "08:35:00",
+            "Tobt": "08:59:00",
+            "Ttot": "09:07:46"
+        },
+        {
+            "CallSign": "VLG772",
+            "AircraftType": "A321",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "A04",
+            "Dlink": true,
+            "Taxi": "taxibot",
+            "StartTime": "08:35:00",
+            "Tobt": "09:01:50",
+            "Regulations": {
+                "Decoupling": {
+                    "Hold": "SE1",
+                    "Duration": 90,
+                    "Time": "09:09:54"
+                },
+                "LineUp": {
+                    "Hold": "T11",
+                    "Time": "09:12:55"
+                }
+            },
+            "Ttot": "09:14:55"
+        },
+        {
+            "CallSign": "RYR701",
+            "AircraftType": "B738",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "F90",
+            "Dlink": true,
+            "Taxi": "set",
+            "StartTime": "08:35:00",
+            "Tobt": "09:00:02",
+            "Ttot": "09:09:02"
+        },
+        {
+            "CallSign": "RYR939",
+            "AircraftType": "B738",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "A05",
+            "Dlink": true,
+            "Taxi": "taxibot",
+            "StartTime": "08:35:00",
+            "Tobt": "09:32:52",
+            "Regulations": {
+                "Decoupling": {
+                    "Hold": "SE1",
+                    "Duration": 90,
+                    "Time": "09:39:48"
+                },
+                "LineUp": {
+                    "Hold": "T11",
+                    "Time": "09:42:47"
+                }
+            },
+            "Ttot": "09:44:47"
+        },
+        {
+            "CallSign": "KLM240",
+            "AircraftType": "A319",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "A06",
+            "Dlink": true,
+            "Taxi": "taxibot",
+            "StartTime": "08:35:00",
+            "Tobt": "09:37:55",
+            "Regulations": {
+                "Decoupling": {
+                    "Hold": "SE1",
+                    "Duration": 90,
+                    "Time": "09:46:18"
+                },
+                "LineUp": {
+                    "Hold": "T11",
+                    "Time": "09:49:21"
+                }
+            },
+            "Ttot": "09:51:21"
+        },
+        {
+            "CallSign": "KLM649",
+            "AircraftType": "B737",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "A07",
+            "Dlink": true,
+            "Taxi": "set",
+            "StartTime": "08:35:30",
+            "Tobt": "09:35:42",
+            "Ttot": "09:45:11"
+        },
+        {
+            "CallSign": "AZA641",
+            "AircraftType": "E190",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "Q08",
+            "Dlink": true,
+            "Taxi": "set",
+            "StartTime": "08:35:00",
+            "Tobt": "09:38:00",
+            "Ttot": "09:50:46"
+        },
+        {
+            "CallSign": "AZA980",
+            "AircraftType": "A320",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "E24",
+            "Dlink": true,
+            "Taxi": "set",
+            "StartTime": "08:35:00",
+            "Tobt": "09:42:30",
+            "Ttot": "09:50:00"
+        },
+        {
+            "CallSign": "BAW361",
+            "AircraftType": "A319",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "J03",
+            "Dlink": true,
+            "Taxi": "set",
+            "StartTime": "08:35:00",
+            "Tobt": "09:43:42",
+            "Ttot": "09:48:58"
+        },
+        {
+            "CallSign": "DAL400",
+            "AircraftType": "A319",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "F03",
+            "Dlink": true,
+            "Taxi": "taxibot",
+            "StartTime": "08:35:00",
+            "Tobt": "09:31:55",
+            "Regulations": {
+                "Decoupling": {
+                    "Hold": "SE1",
+                    "Duration": 90,
+                    "Time": "09:38:13"
+                },
+                "LineUp": {
+                    "Hold": "T11",
+                    "Time": "09:41:16"
+                }
+            },
+            "Ttot": "09:43:16"
+        },
+        {
+            "CallSign": "KLM260",
+            "AircraftType": "A319",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "G31",
+            "Dlink": true,
+            "Taxi": "set",
+            "StartTime": "08:35:00",
+            "Tobt": "09:46:10",
+            "Ttot": "09:56:35"
+        },
+        {
+            "CallSign": "RAM916",
+            "AircraftType": "B738",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "A08",
+            "Dlink": true,
+            "Taxi": "etaxi",
+            "StartTime": "08:35:00",
+            "Tobt": "09:45:42",
+            "Ttot": "09:55:29"
+        },
+        {
+            "CallSign": "BAW353",
+            "AircraftType": "A321",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "F08",
+            "Dlink": true,
+            "Taxi": "taxibot",
+            "StartTime": "08:35:00",
+            "Tobt": "10:03:30",
+            "Regulations": {
+                "Decoupling": {
+                    "Hold": "SE1",
+                    "Duration": 90,
+                    "Time": "10:10:34"
+                },
+                "LineUp": {
+                    "Hold": "T11",
+                    "Time": "10:13:35"
+                }
+            },
+            "Ttot": "10:15:35"
+        },
+        {
+            "CallSign": "AFR130",
+            "AircraftType": "E190",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "A10",
+            "Dlink": true,
+            "Taxi": "set",
+            "StartTime": "08:35:00",
+            "Tobt": "09:49:10",
+            "Ttot": "09:59:01"
+        },
+        {
+            "CallSign": "BEE466",
+            "AircraftType": "DH8D",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "A18",
+            "Dlink": true,
+            "Taxi": "set",
+            "StartTime": "08:35:00",
+            "Tobt": "09:51:20",
+            "Ttot": "10:00:15"
+        },
+        {
+            "CallSign": "BAW717",
+            "AircraftType": "A320",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "Q06",
+            "Dlink": true,
+            "Taxi": "etaxi",
+            "StartTime": "08:35:00",
+            "Tobt": "09:54:30",
+            "Ttot": "10:07:01"
+        },
+        {
+            "CallSign": "AZA709",
+            "AircraftType": "E170",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "A38",
+            "Dlink": true,
+            "Taxi": "set",
+            "StartTime": "08:35:00",
+            "Tobt": "09:54:10",
+            "Ttot": "10:04:12"
+        },
+        {
+            "CallSign": "DAL444",
+            "AircraftType": "A319",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "D14",
+            "Dlink": true,
+            "Taxi": "taxibot",
+            "StartTime": "08:35:00",
+            "Tobt": "09:32:55",
+            "Regulations": {
+                "Decoupling": {
+                    "Hold": "SE1",
+                    "Duration": 90,
+                    "Time": "09:42:57"
+                },
+                "LineUp": {
+                    "Hold": "T11",
+                    "Time": "09:46:00"
+                }
+            },
+            "Ttot": "09:48:00"
+        },
+        {
+            "CallSign": "AFR440",
+            "AircraftType": "A319",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "B07",
+            "Dlink": true,
+            "Taxi": "taxibot",
+            "StartTime": "08:35:00",
+            "Tobt": "09:32:15",
+            "Regulations": {
+                "Decoupling": {
+                    "Hold": "SE1",
+                    "Duration": 90,
+                    "Time": "09:41:44"
+                },
+                "LineUp": {
+                    "Hold": "T11",
+                    "Time": "09:44:47"
+                }
+            },
+            "Ttot": "09:46:47"
+        },
+        {
+            "CallSign": "CSN400",
+            "AircraftType": "A319",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "L65",
+            "Dlink": true,
+            "Taxi": "taxibot",
+            "StartTime": "08:35:00",
+            "Tobt": "09:41:00",
+            "Regulations": {
+                "Decoupling": {
+                    "Hold": "SE1",
+                    "Duration": 90,
+                    "Time": "09:44:06"
+                },
+                "LineUp": {
+                    "Hold": "T11",
+                    "Time": "09:47:09"
+                }
+            },
+            "Ttot": "09:49:09"
+        },
+        {
+            "CallSign": "DLH400",
+            "AircraftType": "A319",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "L33",
+            "Dlink": true,
+            "Taxi": "classic",
+            "StartTime": "08:35:00",
+            "Tobt": "09:32:15",
+            "Ttot": "09:38:55"
+        },
+        {
+            "CallSign": "BAW400",
+            "AircraftType": "A319",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "E44",
+            "Dlink": true,
+            "Taxi": "set",
+            "StartTime": "08:35:00",
+            "Tobt": "09:32:55",
+            "Ttot": "09:40:41"
+        },
+        {
+            "CallSign": "EJU400",
+            "AircraftType": "A319",
+            "Dep": "LFPG",
+            "Arr": "EHAM",
+            "Rwy": "26R",
+            "Parking": "K53",
+            "Dlink": true,
+            "Taxi": "set",
+            "StartTime": "08:35:00",
+            "Tobt": "09:38:25",
+            "Ttot": "09:48:07"
+        }
+    ],
+    "NewArrivalFlights": [
+        {
+            "CallSign": "AFR634",
+            "AircraftType": "A320",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "H22",
+            "Eta": "08:42:00",
+            "Dlink": true,
+            "Taxi": "set",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S1",
+                    "Delay": 20,
+                    "Time": "08:46:08"
+                }
+            },
+            "Tibt": "08:55:24"
+        },
+        {
+            "CallSign": "AZA752",
+            "AircraftType": "E170",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "J21",
+            "Eta": "08:45:12",
+            "Dlink": true,
+            "Taxi": "set",
+            "Regulations": {
+                "Orders": {
+                    "08:55:30": "AircraftStopTaxi",
+                    "08:56:00": "AircraftResumeTaxi"
+                },
+                "RwyCrossing": {
+                    "Hold": "S2",
+                    "Delay": 65,
+                    "Time": "08:50:38"
+                }
+            },
+            "Tibt": "08:57:37"
+        },
+        {
+            "CallSign": "FIN449",
+            "AircraftType": "A320",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "K59",
+            "Eta": "08:46:17",
+            "Dlink": true,
+            "Taxi": "taxibot",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S1",
+                    "Time": "08:50:05"
+                },
+                "Coupling": {
+                    "Hold": "SW4",
+                    "Duration": 155,
+                    "Time": "08:52:17"
+                }
+            },
+            "Tibt": "09:01:09"
+        },
+        {
+            "CallSign": "DLH313",
+            "AircraftType": "B738",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "G22",
+            "Eta": "08:52:32",
+            "Dlink": true,
+            "Taxi": "set",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S1",
+                    "Delay": 40,
+                    "Time": "08:56:41"
+                }
+            },
+            "Tibt": "09:00:13"
+        },
+        {
+            "CallSign": "KLM319",
+            "AircraftType": "A320",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "G20",
+            "Eta": "08:55:12",
+            "Dlink": true,
+            "Taxi": "set",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S2",
+                    "Delay": 60,
+                    "Time": "09:00:26"
+                }
+            },
+            "Tibt": "09:04:12"
+        },
+        {
+            "CallSign": "DAL183",
+            "AircraftType": "A332",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "I04",
+            "Eta": "09:01:52",
+            "Dlink": true,
+            "Taxi": "etaxi",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S3",
+                    "Delay": 10,
+                    "Time": "09:05:18"
+                }
+            },
+            "Tibt": "09:18:04"
+        },
+        {
+            "CallSign": "DAL738",
+            "AircraftType": "A388",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "I15",
+            "Eta": "09:13:32",
+            "Dlink": true,
+            "Taxi": "classic",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S1",
+                    "Time": "09:17:20"
+                }
+            },
+            "Tibt": "09:29:47"
+        },
+        {
+            "CallSign": "FIN448",
+            "AircraftType": "B738",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "K70",
+            "Eta": "09:15:12",
+            "Dlink": true,
+            "Taxi": "taxibot",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S2",
+                    "Time": "09:19:02"
+                },
+                "Coupling": {
+                    "Hold": "SW3",
+                    "Duration": 90,
+                    "Time": "09:21:38"
+                }
+            },
+            "Tibt": "09:29:59"
+        },
+        {
+            "CallSign": "DLH618",
+            "AircraftType": "A343",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "J04",
+            "Eta": "09:16:52",
+            "Dlink": true,
+            "Taxi": "classic",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S3",
+                    "Time": "09:19:29"
+                }
+            },
+            "Tibt": "09:25:59"
+        },
+        {
+            "CallSign": "UAE457",
+            "AircraftType": "A332",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "E26",
+            "Eta": "09:18:32",
+            "Dlink": true,
+            "Taxi": "etaxi",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S1",
+                    "Time": "09:22:20"
+                }
+            },
+            "Tibt": "09:26:44"
+        },
+        {
+            "CallSign": "FIN193",
+            "AircraftType": "A343",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "Q03",
+            "Eta": "09:20:12",
+            "Dlink": true,
+            "Taxi": "classic",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S2",
+                    "Time": "09:23:52"
+                }
+            },
+            "Tibt": "09:29:34"
+        },
+        {
+            "CallSign": "EZY188",
+            "AircraftType": "B789",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "K38",
+            "Eta": "09:24:40",
+            "Dlink": true,
+            "Taxi": "etaxi",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S3",
+                    "Time": "09:28:06"
+                }
+            },
+            "Tibt": "09:34:04"
+        },
+        {
+            "CallSign": "AFR219",
+            "AircraftType": "B733",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "H02",
+            "Eta": "09:26:20",
+            "Dlink": true,
+            "Taxi": "set",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S1",
+                    "Time": "09:30:17"
+                }
+            },
+            "Tibt": "09:39:30"
+        },
+        {
+            "CallSign": "VLG724",
+            "AircraftType": "A320",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "CrossingInner": "S2",
+            "Parking": "K59",
+            "Eta": "09:28:00",
+            "Dlink": true,
+            "Taxi": "taxibot",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S2",
+                    "Time": "09:32:14"
+                },
+                "Coupling": {
+                    "Hold": "SW4",
+                    "Duration": 90,
+                    "Time": "09:34:41"
+                }
+            },
+            "Tibt": "09:42:28"
+        },
+        {
+            "CallSign": "DAL530",
+            "AircraftType": "A320",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "I40",
+            "Eta": "09:29:40",
+            "Dlink": true,
+            "Taxi": "set",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S3",
+                    "Time": "09:33:06"
+                }
+            },
+            "Tibt": "09:45:29"
+        },
+        {
+            "CallSign": "KLM478",
+            "AircraftType": "B77W",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "G14",
+            "Eta": "09:31:20",
+            "Dlink": true,
+            "Taxi": "classic",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S1",
+                    "Time": "09:34:50"
+                }
+            },
+            "Tibt": "09:38:29"
+        },
+        {
+            "CallSign": "VLG560",
+            "AircraftType": "A320",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "H10",
+            "Eta": "09:33:00",
+            "Dlink": true,
+            "Taxi": "set",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S2",
+                    "Time": "09:37:14"
+                }
+            },
+            "Tibt": "09:47:41"
+        },
+        {
+            "CallSign": "RYR594",
+            "AircraftType": "B738",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "Q21",
+            "Eta": "09:36:12",
+            "Dlink": true,
+            "Taxi": "set",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S3",
+                    "Time": "09:39:11"
+                }
+            },
+            "Tibt": "09:45:02"
+        },
+        {
+            "CallSign": "AFR915",
+            "AircraftType": "E190",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "K52",
+            "Eta": "09:37:52",
+            "Dlink": true,
+            "Taxi": "set",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S1",
+                    "Time": "09:41:47"
+                }
+            },
+            "Tibt": "09:48:13"
+        },
+        {
+            "CallSign": "UAE377",
+            "AircraftType": "A332",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "K44",
+            "Eta": "09:39:40",
+            "Dlink": true,
+            "Taxi": "set",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S2",
+                    "Time": "09:43:43"
+                }
+            },
+            "Tibt": "09:50:02"
+        },
+        {
+            "CallSign": "KLM918",
+            "AircraftType": "A321",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "K21",
+            "Eta": "09:41:48",
+            "Dlink": true,
+            "Taxi": "set",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S3",
+                    "Time": "09:45:03"
+                }
+            },
+            "Tibt": "09:50:43"
+        },
+        {
+            "CallSign": "KLM879",
+            "AircraftType": "B738",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "C07",
+            "Eta": "09:43:28",
+            "Dlink": true,
+            "Taxi": "classic",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S1",
+                    "Time": "09:46:57"
+                }
+            },
+            "Tibt": "09:50:33"
+        },
+        {
+            "CallSign": "EZY446",
+            "AircraftType": "A388",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "I34",
+            "Eta": "09:45:08",
+            "Dlink": true,
+            "Taxi": "etaxi",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S2",
+                    "Time": "09:49:11"
+                }
+            },
+            "Tibt": "10:01:35"
+        },
+        {
+            "CallSign": "DAL502",
+            "AircraftType": "A320",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "J20",
+            "Eta": "09:46:48",
+            "Dlink": true,
+            "Taxi": "etaxi",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S3",
+                    "Time": "09:50:14"
+                }
+            },
+            "Tibt": "09:57:11"
+        },
+        {
+            "CallSign": "BAW997",
+            "AircraftType": "A319",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "CrossingInner": "S1",
+            "Parking": "J30",
+            "Eta": "09:50:19",
+            "Dlink": true,
+            "Taxi": "taxibot",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S1",
+                    "Time": "09:54:18"
+                },
+                "Coupling": {
+                    "Hold": "SW4",
+                    "Duration": 90,
+                    "Time": "09:56:29"
+                }
+            },
+            "Tibt": "10:06:01"
+        },
+        {
+            "CallSign": "AFR940",
+            "AircraftType": "B789",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "H03",
+            "Eta": "09:54:36",
+            "Dlink": true,
+            "Taxi": "classic",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S2",
+                    "Time": "09:58:50"
+                }
+            },
+            "Tibt": "10:08:31"
+        },
+        {
+            "CallSign": "FIN212",
+            "AircraftType": "B77W",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "Q18",
+            "Eta": "09:56:50",
+            "Dlink": true,
+            "Taxi": "etaxi",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S3",
+                    "Time": "09:59:26"
+                }
+            },
+            "Tibt": "10:05:34"
+        },
+        {
+            "CallSign": "RYR188",
+            "AircraftType": "A333",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "C08",
+            "Eta": "09:58:30",
+            "Dlink": true,
+            "Taxi": "etaxi",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S1",
+                    "Time": "10:02:18"
+                }
+            },
+            "Tibt": "10:06:03"
+        },
+        {
+            "CallSign": "RYR161",
+            "AircraftType": "A320",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "I82",
+            "Eta": "10:00:10",
+            "Dlink": true,
+            "Taxi": "set",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S2",
+                    "Time": "10:04:24"
+                }
+            },
+            "Tibt": "10:17:50"
+        },
+        {
+            "CallSign": "BAW854",
+            "AircraftType": "B772",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "G13",
+            "Eta": "10:01:50",
+            "Dlink": true,
+            "Taxi": "classic",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S3",
+                    "Time": "10:05:06"
+                }
+            },
+            "Tibt": "10:09:15"
+        },
+        {
+            "CallSign": "AFR148",
+            "AircraftType": "B77W",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "E18",
+            "Eta": "10:03:30",
+            "Dlink": true,
+            "Taxi": "etaxi",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S1",
+                    "Time": "10:07:00"
+                }
+            },
+            "Tibt": "10:10:59"
+        },
+        {
+            "CallSign": "DAL129",
+            "AircraftType": "A320",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "CrossingInner": "S2",
+            "Parking": "I54",
+            "Eta": "10:05:10",
+            "Dlink": true,
+            "Taxi": "taxibot",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S2",
+                    "Time": "10:09:24"
+                },
+                "Coupling": {
+                    "Hold": "SW4",
+                    "Duration": 90,
+                    "Time": "10:11:51"
+                }
+            },
+            "Tibt": "10:25:42"
+        },
+        {
+            "CallSign": "BAW115",
+            "AircraftType": "A321",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "CrossingInner": "S1",
+            "Parking": "C03",
+            "Eta": "10:06:50",
+            "Dlink": true,
+            "Taxi": "set",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S3",
+                    "Time": "10:10:05"
+                }
+            },
+            "Tibt": "10:13:16"
+        },
+        {
+            "CallSign": "AZA842",
+            "AircraftType": "A321",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "E22",
+            "Eta": "10:08:30",
+            "Dlink": true,
+            "Taxi": "taxibot",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S1",
+                    "Time": "10:12:19"
+                },
+                "Coupling": {
+                    "Hold": "SW4",
+                    "Duration": 90,
+                    "Time": "10:14:26"
+                }
+            },
+            "Tibt": "10:20:27"
+        },
+        {
+            "CallSign": "RYR732",
+            "AircraftType": "B736",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "Q07",
+            "Eta": "10:10:10",
+            "Dlink": true,
+            "Taxi": "etaxi",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S2",
+                    "Time": "10:14:31"
+                }
+            },
+            "Tibt": "10:20:04"
+        },
+        {
+            "CallSign": "KLM307",
+            "AircraftType": "A333",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "K76",
+            "Eta": "10:11:50",
+            "Dlink": true,
+            "Taxi": "classic",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S3",
+                    "Time": "10:15:06"
+                }
+            },
+            "Tibt": "10:19:52"
+        },
+        {
+            "CallSign": "EZY169",
+            "AircraftType": "B789",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "K53",
+            "Eta": "10:13:30",
+            "Dlink": true,
+            "Taxi": "classic",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S1",
+                    "Time": "10:17:18"
+                }
+            },
+            "Tibt": "10:23:26"
+        },
+        {
+            "CallSign": "RYR784",
+            "AircraftType": "A319",
+            "Dep": "EHAM",
+            "Arr": "LFPG",
+            "Rwy": "26L",
+            "Parking": "H30",
+            "Eta": "10:15:10",
+            "Dlink": true,
+            "Taxi": "set",
+            "Regulations": {
+                "RwyCrossing": {
+                    "Hold": "S2",
+                    "Time": "10:19:31"
+                }
+            },
+            "Tibt": "10:29:11"
+        }
+    ],
+    "NewTaxibots": [
+        {
+            "CallSign": "TB01",
+            "AircraftType": "TAXIBOT_NB",
+            "Parking": "C03",
+            "StartTime": "08:10:00",
+            "Missions": [
+                "FIN449",
+                "KLM240",
+                "DAL129"
+            ]
+        },
+        {
+            "CallSign": "TB02",
+            "AircraftType": "TAXIBOT_NB",
+            "Parking": "Q10",
+            "StartTime": "08:10:00",
+            "Missions": [
+                "DAL865",
+                "FIN448"
+            ]
+        },
+        {
+            "CallSign": "TB03",
+            "AircraftType": "TAXIBOT_NB",
+            "Parking": "A30",
+            "StartTime": "08:10:00",
+            "Missions": [
+                "KLM509",
+                "BAW997"
+            ]
+        },
+        {
+            "CallSign": "TB04",
+            "AircraftType": "TAXIBOT_NB",
+            "Parking": "H70",
+            "StartTime": "08:10:00",
+            "Missions": [
+                "DAL423",
+                "AZA842"
+            ]
+        },
+        {
+            "CallSign": "TB05",
+            "AircraftType": "TAXIBOT_NB",
+            "Parking": "A02",
+            "StartTime": "08:10:00",
+            "Missions": [
+                "VLG958",
+                "VLG724"
+            ]
+        },
+        {
+            "CallSign": "TB06",
+            "AircraftType": "TAXIBOT_NB",
+            "Parking": "F32",
+            "StartTime": "08:10:00",
+            "Missions": [
+                "RYR736"
+            ]
+        },
+        {
+            "CallSign": "TB07",
+            "AircraftType": "TAXIBOT_NB",
+            "Parking": "A30",
+            "StartTime": "08:10:00",
+            "Missions": [
+                "BAW707",
+                "VLG772"
+            ]
+        },
+        {
+            "CallSign": "TB08",
+            "AircraftType": "TAXIBOT_NB",
+            "Parking": "Q19",
+            "StartTime": "08:10:00",
+            "Missions": [
+                "FIN156"
+            ]
+        },
+        {
+            "CallSign": "TB09",
+            "AircraftType": "TAXIBOT_NB",
+            "Parking": "F68",
+            "StartTime": "08:10:00",
+            "Missions": [
+                "EZY125"
+            ]
+        },
+        {
+            "CallSign": "TB10",
+            "AircraftType": "TAXIBOT_NB",
+            "Parking": "J12",
+            "StartTime": "08:10:00",
+            "Missions": [
+                "AZA620"
+            ]
+        },
+        {
+            "CallSign": "TB11",
+            "AircraftType": "TAXIBOT_NB",
+            "Parking": "G35",
+            "StartTime": "08:10:00",
+            "Missions": [
+                "DAL400",
+                "BAW353"
+            ]
+        },
+        {
+            "CallSign": "TB12",
+            "AircraftType": "TAXIBOT_NB",
+            "Parking": "F90",
+            "StartTime": "08:10:00",
+            "Missions": [
+                "RYR939"
+            ]
+        }
+    ],
+    "NewDrones": [],
+    "NewHelicopters": []
+}
