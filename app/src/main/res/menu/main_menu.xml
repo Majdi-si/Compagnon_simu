@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item
+    android:id="@+id/menu_action_import"
+    android:icon="@drawable/ic_file_upload"
+    android:title="@string/importer"
+    app:showAsAction="always"/>
+
+<item
+    android:id="@+id/menu_action_connect"
+    android:icon="@drawable/ic_bluetooth"
+    android:title="@string/connexion"
+    app:showAsAction="always"/>
+<item
+    android:id="@+id/menu_action_sort"
+    android:title="Trier"
+    android:showAsAction="never"/>
+</menu>

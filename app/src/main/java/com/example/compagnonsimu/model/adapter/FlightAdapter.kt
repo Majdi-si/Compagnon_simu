@@ -9,7 +9,7 @@ import com.example.compagnonsimu.R
 import com.example.compagnonsimu.model.Flight
 import com.example.compagnonsimu.model.Taxibot
 
-class FlightAdapter(private val items: List<Any>) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class FlightAdapter(private var items: List<Any>) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     override fun getItemViewType(position: Int): Int {
         return when (items[position]) {
@@ -45,6 +45,35 @@ class FlightAdapter(private val items: List<Any>) : RecyclerView.Adapter<Recycle
     }
 
     override fun getItemCount() = items.size
+
+    fun sortByOption(option: Int) {
+        items = when (option) {
+            0 -> items.sortedBy {
+                when (it) {
+                    is Taxibot -> "TUG"
+                    is Flight -> "AVION"
+                    else -> ""
+                }
+            }
+            1 -> items.sortedBy {
+                if (it is Flight)
+                    if (it.Dep == "LFPG") "A_DEPART" else "B_ARRIVEE"
+                else "Z"
+            }
+            2 -> items.sortedBy {
+                if (it is Flight) it.Tobt ?: "" else ""
+            }
+            3 -> items.sortedBy {
+                when (it) {
+                    is Flight -> it.CallSign
+                    is Taxibot -> it.CallSign
+                    else -> ""
+                }
+            }
+            else -> items
+        }
+        notifyDataSetChanged()
+    }
 
     class DepartureViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bind(flight: Flight) {

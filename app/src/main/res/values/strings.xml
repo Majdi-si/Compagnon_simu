@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Compagnon simu</string>
+    <string name="importer_fichier">Importer fichier</string>
+    <string name="connexion_simulateur">Connexion simulateur</string>
+    <string name="importer">Importer</string>
+    <string name="connexion">Connexion</string>
 </resources>
